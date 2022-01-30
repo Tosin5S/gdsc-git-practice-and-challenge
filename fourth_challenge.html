@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GDSC</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1> GDSC Coding Challenge 4</h1>
+         
+        <h3>ARRAY PRACTICE I</h3>   
+            <p>Let's start off with some basic array practice. In this task we'd like you to</P>
+            <ol>
+                <li>create an array of three items, stored inside a variable called myArray. 
+                    The items can be anything you want — how about your favorite foods or bands? </li>
+                <li>modify the first two items in the array using simple bracket notation and assignment. </li>
+                <li>Then add a new item to the beginning of the array. </li> 
+            </ol>
+            
+        <h3>ARRAY PRACTICE II</h3>
+            <p>For this array task, we provide you with a starting array.</p>
+            
+            <p>let myArray = [ "UI", "Unilag", "Lautech", "Futa", "Fuoye", "Babcock", "Uniosun", "Kwasu" ];
+            using the above array, perform the following tasks</p> 
+            <ol>
+                <li>Remove the last item in the array. </li>
+                <li>Add two new names to the end of the array. </li>
+                <li>Finally, join the array items together in a single string called myString, with a separator of "-". </li> 
+            </ol> 
+            <p>GOOD LUCK 😀😀</p>  
+        <script>
+            // Array Practice I
+            // created an array of three items
+            let myArray = ["python", "javaScript", "kotlin"];
+            
+            // modified the first two items in the array
+            myArray[0] = "ruby";
+            myArray[1] = "Go"
+            
+            // added a new item to the beginning of the array
+            myArray.unshift("C#");
+            console.log(myArray);
+
+            // Array Practice I
+            let myArr = [ "UI", "Unilag", "Lautech", "Futa", "Fuoye", "Babcock", "Uniosun", "Kwasu" ];
+            
+            // Removed the last item in the array
+            myArr.pop();
+            console.log(myArr);
+
+            // Added two new names to the end of the array
+            myArr.push("MIT","Harvard");
+            console.log(myArr);
+
+            // Joined the array items together in a single string
+            let myString = myArr.join("-");
+            console.log(myString);
+
+            // Thanks @Ash-shattry and @Loki for your tutorials
+        </script>
+    </body>
+</html>
